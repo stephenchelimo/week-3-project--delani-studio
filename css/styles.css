@@ -56,11 +56,11 @@
   #services {
     padding-top: 18px;
     display: block;
-    background-image: url(../images/s_image.jpg);
+    background-image: url(css/images/images/s_image.jpg);
     background-size: 100%,100%;
     background-repeat: no-repeat;
     text-align: center;
-    color: white;
+    color:black;
   }
   
   #icons{
@@ -74,20 +74,21 @@
   }
   
   #contactus{
-    width: 100%;
-    padding-top: 40px;
+    width: 40%;
+    padding-top: 25px;
     display: block;
-    background-image: url(../images/c_image.jpg);
-    background-size: 100%,100%;
+    background-image: url(css/images/images/c_image.jpg);
+    background-size: 50%,50%;
     background-repeat: no-repeat;
     text-align: center;
-    color: white;
+    color:black;
+    align-content: flex-end;
   }
   input{
     background-color: inherit;
     height: 22px;
     margin-right: 10px;
-    color: white;
+    color:black;
   }
   
   #name{
@@ -101,7 +102,7 @@
   textarea{
     background-color: inherit;
     margin-left: 10px;
-    color: white;
+    color:black;
   }
   
   form{
@@ -153,7 +154,7 @@
     height: 50px;
     width: 130px;
     transform: translate(-50%, -50%);
-    color: white;
+    color: black;
     border: 2px solid; white;
     padding-left: 5px;
     padding-top: 5px;
@@ -192,4 +193,8 @@
   .response{
     position: absolute;
     top: 20%;
+  }
+  .portofolio{
+      content: icon;
+      align-content: space-between;
   }
