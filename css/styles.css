@@ -83,3 +83,57 @@
     text-align: center;
     color: white;
   }
+  input{
+    background-color: inherit;
+    height: 22px;
+    margin-right: 10px;
+    color: white;
+  }
+  
+  #name{
+    width: 330px;
+  }
+  
+  #email{
+    width: 300px;
+  }
+  
+  textarea{
+    background-color: inherit;
+    margin-left: 10px;
+    color: white;
+  }
+  
+  form{
+    margin-top: 20px;
+  }
+  
+  ::placeholder{
+    color: white;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  #socialmedia{
+    width: 100%;
+    display: block;
+    padding: 270px;
+    padding-top: 0px;
+  }
+  
+  #desc-des{
+    display: none;
+    text-align: center;
+  }
+  
+  #desc-dev{
+    display: none;
+    text-align: center;
+  }
+  
+  #desc-prod{
+    display: none;
+    text-align: center;
+  }
