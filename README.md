@@ -1,20 +1,20 @@
-#title
+# title
 week-3-project--delani-studio
 
-#Author
+# Author
 stephen chelimo
 
-##description
+## description
 This project is a web application for Delani studio that shows details about the services offered,information about the studio, a portfolio section and 
 form that enables users to send their messages and concern to Delani studios.
 
 ##Landing page 
 the outlook of delani studio
 
-##livepage
+## livepage
 https://stephen chelimo.github.io/Delani-Studio
 
-##Setup instruction
+## Setup instruction
  
 
     Open Terminal {Ctrl+Alt+T}
@@ -25,19 +25,19 @@ https://stephen chelimo.github.io/Delani-Studio
 
     code . or atom . depending on the text editor of your choise.
 
-##Technologies used
+## Technologies used
 
     HTML5
     CSS
     Bootstrap
     jQuery
     
-##bdd
+## bdd
 |Input| 	Output|
 |name |name    |	
 |Email|	email|
 |message |messge 	|
 
-##licence
+## licence
 MIT licence
 copyright (c)stephen chelimo
