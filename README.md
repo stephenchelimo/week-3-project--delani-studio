@@ -34,8 +34,11 @@ https://stephen chelimo.github.io/Delani-Studio
     
 ## bdd
 |Input| 	Output|
+
 |name |name    |	
+
 |Email|	email|
+
 |message |messge 	|
 
 ## licence
