@@ -57,10 +57,11 @@
     padding-top: 18px;
     display: block;
     background-image: url(../css/images/images/s_image.jpg);
-    background-size: 100%,100%;
+    background-size:cover;
     background-repeat: no-repeat;
     text-align: center;
     color:white;
+  
   }
   
   #icons{
@@ -113,17 +114,14 @@
     color: white;
   }
   
-  ul{
-    list-style: none;
-  }
   
   #socialmedia{
     width: 100%;
     display: block;
-    padding: 270px;
-    padding-top: 109px;
+    padding-top: 40px;
+    padding-left: 100px;
     height: 100px;
-    image: resolution 100%;
+    align-content: space-between;
   }
   
   #desc-des{
