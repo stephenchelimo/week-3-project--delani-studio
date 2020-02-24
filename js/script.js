@@ -68,3 +68,64 @@ $(document).ready(function(){
       $('#box8').hide();
     });
   });
+  function validEmail() {
+    var email = document.getElementById("email").value;
+    if (email !== /\S+@\S+\.\S+/){
+      document.getElementById('response').value = "Please enter a valid email";
+    }
+  }
+  
+  function allLetters(input){
+    var characters = /[^a-z '']/gi;
+    input.value = input.value.replace(characters, "");
+  }
+  
+  function giveName() {
+    var usrname = document.getElementById("name").value;
+    if (usrname == "") {
+        document.getElementById('response').value = "Name must be filled";
+      return false;
+    }
+  }
+  
+  function giveEmail() {
+    var email = document.getElementById("email").value;
+    if (email == "") {
+          document.getElementById('response').value = "Email must be filled";
+      return false;
+    }
+  }
+  
+  function typeMessage() {
+    var message = document.getElementById("message").value;
+    if (message == "") {
+        document.getElementById('response').value = "Type in a messaage";
+      return false;
+    }
+  }
+  
+  document.getElementById('submit').addEventListener('click', function(){
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+    var name = document.getElementById('name').value;
+    if (name !== "" && email !== "" && message !== ""){
+      document.getElementById('response').value = name + ", we have received your message. Thank you for reaching us.";
+    }
+    else{
+      document.getElementById('response').value = "Kindly ensure all fields are filled!!";
+    }
+    });
+  
+  document.getElementById('submit').addEventListener('click', function(){
+    document.querySelector('.bg-modal').style.display = 'flex';
+    event.preventDefault();
+  });
+  
+  document.querySelector('.close').addEventListener('click', function(){
+    document.querySelector('.bg-modal').style.display = 'none';
+    event.preventDefault();
+  });
+  
+  document.querySelector('.close').addEventListener('click', function(){
+   document.getElementById("form").reset();
+  });
