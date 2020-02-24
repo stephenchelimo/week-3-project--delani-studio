@@ -8,7 +8,7 @@ stephen chelimo
 This project is a web application for Delani studio that shows details about the services offered,information about the studio, a portfolio section and 
 form that enables users to send their messages and concern to Delani studios.
 
-##Landing page 
+## Landing page 
 the outlook of delani studio
 
 ## livepage
