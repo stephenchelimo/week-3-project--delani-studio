@@ -81,8 +81,8 @@ $(document).ready(function(){
   }
   
   function giveName() {
-    var usrname = document.getElementById("name").value;
-    if (usrname == "") {
+    var username = document.getElementById("name").value;
+    if (username == "") {
         document.getElementById('response').value = "Name must be filled";
       return false;
     }

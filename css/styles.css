@@ -5,7 +5,7 @@
   
   .text{
     position: absolute;
-    z-index: 999;
+    z-index: 99;
     margin: 0 auto;
     left: 0;
     right: 0;
@@ -74,21 +74,21 @@
   }
   
   #contactus{
-    width: 40%;
+    width: 100%;
     padding-top: 25px;
     display: block;
     background-image: url(../css/images/images/c_image.jpg);
-    background-size: 100%,100%;
+    background-size:cover;
     background-repeat: no-repeat;
     text-align: center;
-    color:black;
+    color:white;
     align-content: flex-end;
   }
   input{
     background-color: inherit;
     height: 22px;
     margin-right: 10px;
-    color:black;
+    color:white;
   }
   
   #name{
@@ -121,8 +121,9 @@
     width: 100%;
     display: block;
     padding: 270px;
-    padding-top: 0px;
-    display: flex;
+    padding-top: 109px;
+    height: 100px;
+    image: resolution 100%;
   }
   
   #desc-des{
@@ -198,6 +199,7 @@
   .portofolio{
       content: icon;
       align-content: space-between;
+      size: 50px;
   }
   .d-flex{
     display: flex;
