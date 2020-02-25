@@ -72,19 +72,18 @@ $(document).ready(function () {
     $('#work8').on("mouseout", function () {
         $('#box8').hide();
     });
-
-
-    function data() {
-        var email = document.getElementById("email").value;
-        var message = document.getElementById("message").value;
-        var name = document.getElementById("name").value;
-    
-        if (name === "" || email === "" || message === "") {
-            alert("enter data.");
-        }
-        else {
-            alert(name + ", we have received your message. Thank you for reaching us.");
-        }
-    };
     
 });
+
+function data() {
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+    var name = document.getElementById("name").value;
+
+    if (name === "" || email === "" || message === "") {
+        alert("enter data.");
+    }
+    else {
+        alert(name + ", we have received your message. Thank you for reaching us.");
+    }
+};
