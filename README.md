@@ -38,7 +38,7 @@ https://stephenchelimo.github.io/week-3-project--delani-studio/
 -----------
 |Email|	email|
 ---------------
-|message |messge 	|
+|message |message 	|
 ------------------
 
 ## licence
