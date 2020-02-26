@@ -12,7 +12,7 @@ form that enables users to send their messages and concern to Delani studios.
 the outlook of delani studio
 
 ## livepage
-https://stephenchelimo.github.io/Delani-Studio
+https://stephenchelimo.github.io/week-3-project--delani-studio/
 
 ## Setup instruction
  
