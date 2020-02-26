@@ -34,12 +34,9 @@ https://stephenchelimo.github.io/week-3-project--delani-studio/
     
 ## bdd
 |Input| 	Output|
-|name |name    |	
------------
-|Email|	email|
----------------
-|message |message 	|
-------------------
+|name |enter your name    |	
+|Email|enter your	email|
+|message |write your message  	|
 
 ## licence
 Copyright <2020> <STEPHENCHELIMO>
